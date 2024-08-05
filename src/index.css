@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active{
+  @apply px-2 py-1 rounded-md bg-[#1ABC9C] transition duration-500 md:px-3 py-2
+}
